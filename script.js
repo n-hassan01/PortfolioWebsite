@@ -49,7 +49,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".continuous", {
-        strings: ["TypeScript", "Angular", "JavaScript", "React", "Node", "Python", "Java", "HTML", "CSS"],
+        strings: ["TypeScript", "Angular", "JavaScript", "React", "Node", "Python", "Java", "Hibernate", "HTML", "CSS"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

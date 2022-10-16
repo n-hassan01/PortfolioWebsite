@@ -402,7 +402,10 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .java::before{
-    width: 70%;
+    width: 90%;
+}
+.skills-content .right .hibernate::before{
+    width: 80%;
 }
 .skills-content .right .js::before{
     width: 90%;
