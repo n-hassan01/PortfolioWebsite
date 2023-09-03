@@ -35,24 +35,46 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Designer", "YouTuber", "Freelancer"],
+        strings: ["Developer", "Designer", "Engineer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Designer", "YouTuber", "Freelancer"],
+        strings: ["Developer", "Designer", "Engineer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".continuous", {
-        strings: ["TypeScript", "Angular", "JavaScript", "React", "Node", "Python", "Java", "Hibernate", "HTML", "CSS"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
+      // strings: ["TypeScript", "Angular", "JavaScript", "React", "Node", "Python", "Java", "Hibernate", "HTML", "CSS"],
+      strings: [
+        "Java",
+        "Spring Boot",
+        "Jersey",
+        "JSP",
+        "JDBC",
+        "Hibernate",
+        "JavaScript",
+        "Node",
+        "Express",
+        "React",
+        "TypeScript",
+        "Angular",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "C",
+        "C++",
+        "C#",
+        "MySQL",
+        "PostgreSQL",
+      ],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
     });
 
     // owl carousel script
